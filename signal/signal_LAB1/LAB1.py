@@ -12,7 +12,7 @@ plt.rcParams['axes.unicode_minus']=False #用来正常显示负号
 plt.subplot(1,2,1)
 plt.title(r'$f(x)=sin(x)$') 
 plt.plot(x, y)
-#plt.show()
+#plt.show()7
 
 x1 = [t*0.375*np.pi for t in x]
 y1 = np.sin(x1)
